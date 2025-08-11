@@ -1,18 +1,33 @@
-# Salesforce DX Project: Next Steps
+♻️ RePlastix Innovations – Salesforce Inventory Automation
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This project demonstrates how RePlastix Innovations leverages Salesforce CRM to automate recycled plastic inventory management using Apex, Triggers, and Flows. The implementation helps prevent stock shortages, streamline restocking, and enhance cross-team communication through email automation.
 
-## How Do You Plan to Deploy Your Changes?
+💡 Use Case
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+1.A Sales Rep places a new order.
 
-## Configure Your Salesforce DX Project
+2.The system checks stock availability:
+    If stock is enough → deducts quantity.
+    If stock is low → automatically creates a Restock Request.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+3.A Manager approves the Restock Request.
 
-## Read All About It
+4.The system:
+    Updates stock.
+    Sends an email to the warehouse team.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+⚙️ Technologies Used
+
+Salesforce Apex Classes & Triggers
+Process Automation with Flows
+Role-based Security (FLS, CRUD)
+Developer Console & Change Sets
+Test Coverage: ✅ 100%
+
+📸 Documentation Includes
+
+Entity Relationship (ER) Diagram
+UI Screenshots (Order, Product, Restock)
+Trigger/Flow Code
+Test Results & Deployment Logs
+Business Use Case & Phase-wise Implementation
