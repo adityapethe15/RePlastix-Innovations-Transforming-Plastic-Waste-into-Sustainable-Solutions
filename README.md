@@ -4,13 +4,13 @@ This project demonstrates how RePlastix Innovations leverages Salesforce CRM to 
 
 💡 Use Case
 
-1.A Sales Rep places a new order.
+1. A Sales Rep places a new order.
 
-2.The system checks stock availability:
+2. The system checks stock availability:
     If stock is enough → deducts quantity.
     If stock is low → automatically creates a Restock Request.
 
-3.A Manager approves the Restock Request.
+3. A Manager approves the Restock Request.
 
 4.The system:
     Updates stock.
