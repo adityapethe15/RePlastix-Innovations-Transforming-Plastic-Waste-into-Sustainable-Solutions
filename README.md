@@ -18,16 +18,16 @@ This project demonstrates how RePlastix Innovations leverages Salesforce CRM to 
 
 ⚙️ Technologies Used
 
-Salesforce Apex Classes & Triggers
-Process Automation with Flows
-Role-based Security (FLS, CRUD)
-Developer Console & Change Sets
+Salesforce Apex Classes & Triggers,
+Process Automation with Flows,
+Role-based Security (FLS, CRUD),
+Developer Console & Change Sets,
 Test Coverage: ✅ 100%
 
 📸 Documentation Includes
 
-Entity Relationship (ER) Diagram
-UI Screenshots (Order, Product, Restock)
-Trigger/Flow Code
-Test Results & Deployment Logs
+Entity Relationship (ER) Diagram,
+UI Screenshots (Order, Product, Restock),
+Trigger/Flow Code,
+Test Results & Deployment Logs,
 Business Use Case & Phase-wise Implementation
